@@ -16,9 +16,11 @@ public class OnlineShoppingService {
     private final Map<String, Order> orders;
 
     private OnlineShoppingService() {
+        //constructor
         users = new ConcurrentHashMap<>();
         products = new ConcurrentHashMap<>();
         orders = new ConcurrentHashMap<>();
+    
     }
 
     public static synchronized OnlineShoppingService getInstance() {
