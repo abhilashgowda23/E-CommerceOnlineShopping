@@ -10,8 +10,8 @@ public class OnlineShoppingServiceDemo {
         OnlineShoppingService shoppingService = OnlineShoppingService.getInstance();
 
         // Register users
-        User user1 = new User("U001", "John Doe", "john@example.com", "password123");
-        User user2 = new User("U002", "Jane Smith", "jane@example.com", "password456");
+        User user1 = new User("U001", "Sumanth", "Sumanth@google.com", "password123");
+        User user2 = new User("U002", "Spoorthi", "Spoorthi@amazon.com", "password456");
         shoppingService.registerUser(user1);
         shoppingService.registerUser(user2);
 
